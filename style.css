@@ -1,0 +1,47 @@
+.jumbotron:first-child { background:url(trustd-cover-image.jpg); background-size:cover;min-height:600px; }
+
+.footer { background-color: #088DBA; min-height:250px;} 
+
+body { margin-bottom:0;padding-bottom:0; } 
+
+.h2-alternate { color: #088DBA; font-weight:600; }
+
+.home-b:link {color: #254159;}
+.home-b:hover {color: #254159;}
+.home-b:active {color: #254159;}
+.home-b:visited {color: #254159;}
+
+
+
+/* ** *** CONTACT FORM *** ** */
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4EAECD;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #FFB600;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
